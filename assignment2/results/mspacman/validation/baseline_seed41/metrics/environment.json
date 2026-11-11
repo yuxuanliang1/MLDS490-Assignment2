@@ -1,0 +1,43 @@
+{
+  "requested_id": "MsPacman-v5",
+  "actual_spec_id": "MsPacman-v5",
+  "canonical_registration": "ALE/MsPacman-v5",
+  "registration_alias_only": true,
+  "spec_kwargs": {
+    "game": "ms_pacman",
+    "obs_type": "rgb",
+    "repeat_action_probability": 0.25,
+    "full_action_space": false,
+    "frameskip": 4,
+    "max_num_frames_per_episode": 108000,
+    "render_mode": null
+  },
+  "max_episode_steps": null,
+  "observation_shape": [
+    210,
+    160,
+    3
+  ],
+  "observation_dtype": "uint8",
+  "actions": 9,
+  "action_meanings": [
+    "NOOP",
+    "UP",
+    "RIGHT",
+    "LEFT",
+    "DOWN",
+    "UPRIGHT",
+    "UPLEFT",
+    "DOWNRIGHT",
+    "DOWNLEFT"
+  ],
+  "rendering": null,
+  "extra_frameskip_wrapper": false,
+  "no_op_reset": false,
+  "reward_clipping": false,
+  "episodic_life": false,
+  "frame_stack": 1,
+  "rom_file": "ms_pacman.bin",
+  "rom_sha256": "dde0b43c5dee7ce1a35ac8e2f625b32a16118512d9be4064115053b972280b14",
+  "rom_provenance": "Already available in installed ale-py ROM package; no download/license-acceptance step performed"
+}

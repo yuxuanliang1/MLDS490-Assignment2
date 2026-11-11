@@ -1,0 +1,24 @@
+{
+  "provenance": {
+    "source": "assignment2/results/mspacman/smoke_recovery_extended/summary.json",
+    "source_sha256": "cd0ebf234d4063b5ea007bda60f2cdb2fdfcb08d64183e0359f0560aec92e045",
+    "transformation": "Compact public summary; original commands/private interpreter paths omitted; measurements unchanged"
+  },
+  "passed": true,
+  "max_parameter_difference": 0.0,
+  "rollback_parameter_difference": 0.0,
+  "continuous": {
+    "episodes": 4,
+    "steps": 1946,
+    "optimizer_updates": 471,
+    "target_updates": 9
+  },
+  "resumed": {
+    "episodes": 4,
+    "steps": 1946,
+    "optimizer_updates": 471,
+    "target_updates": 9
+  },
+  "smoke_target_interval": 50,
+  "limitation": "Four-game software recovery test on the same GPU/software; not full-budget independent training."
+}

@@ -1,0 +1,23 @@
+{
+  "initial_validation_mean": 210.0,
+  "selected_validation_mean": 1387.0,
+  "paired_validation_improvement": 1177.0,
+  "paired_bootstrap_95_percent_interval": [
+    986.0,
+    1357.0249999999996
+  ],
+  "selection_panel_episodes": 10,
+  "interval_limitation": "Exploratory paired bootstrap on reused selection panel; not an unbiased confirmatory interval",
+  "random_control": {
+    "episodes": 10,
+    "mean": 252.0,
+    "std_population": 77.56287771866127,
+    "median": 240.0,
+    "minimum": 170.0,
+    "maximum": 440.0,
+    "mean_decision_steps": 486.6,
+    "mean_raw_frames": 1943.4,
+    "terminated_episodes": 10,
+    "truncated_episodes": 0
+  }
+}

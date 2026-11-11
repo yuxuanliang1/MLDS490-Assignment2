@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "run": "main_seed11",
+      "episodes": 894,
+      "steps": 80216,
+      "test_episodes": 500,
+      "successful_data_consistency": true
+    },
+    {
+      "run": "seed22",
+      "episodes": 881,
+      "steps": 80092,
+      "test_episodes": 500,
+      "successful_data_consistency": true
+    },
+    {
+      "run": "seed33",
+      "episodes": 942,
+      "steps": 80014,
+      "test_episodes": 500,
+      "successful_data_consistency": true
+    },
+    {
+      "run": "soft_target_seed11",
+      "episodes": 948,
+      "steps": 80132,
+      "test_episodes": 500,
+      "successful_data_consistency": true
+    },
+    {
+      "run": "target_every_update_seed11",
+      "episodes": 1000,
+      "steps": 15769,
+      "test_episodes": 500,
+      "successful_data_consistency": true
+    },
+    {
+      "run": "recent_replay_seed11",
+      "episodes": 794,
+      "steps": 80183,
+      "test_episodes": 500,
+      "successful_data_consistency": true
+    },
+    {
+      "run": "gamma090_seed11",
+      "episodes": 984,
+      "steps": 80156,
+      "test_episodes": 500,
+      "successful_data_consistency": true
+    },
+    {
+      "run": "gamma099_seed11",
+      "episodes": 1000,
+      "steps": 58648,
+      "test_episodes": 500,
+      "successful_data_consistency": true
+    }
+  ],
+  "primary": "seed33",
+  "primary_test_episodes": 500,
+  "primary_stress_episodes": 405
+}

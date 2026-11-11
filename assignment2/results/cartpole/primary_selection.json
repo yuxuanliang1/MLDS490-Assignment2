@@ -1,0 +1,35 @@
+{
+  "run": "seed33",
+  "checkpoint": "assignment2/results/cartpole/seed33/checkpoints/best_ep0942.pt",
+  "validation_mean": 500.0,
+  "candidates": [
+    {
+      "run": "main_seed11",
+      "checkpoint": "best_ep0725.pt",
+      "episode": 725,
+      "eval_mean": 407.6,
+      "selection_seed_start": 50000,
+      "selection_episodes": 10,
+      "reason": "Highest periodic greedy mean; earliest wins ties; no held-out evaluation used"
+    },
+    {
+      "run": "seed22",
+      "checkpoint": "best_ep0550.pt",
+      "episode": 550,
+      "eval_mean": 473.7,
+      "selection_seed_start": 50000,
+      "selection_episodes": 10,
+      "reason": "Highest periodic greedy mean; earliest wins ties; no held-out evaluation used"
+    },
+    {
+      "run": "seed33",
+      "checkpoint": "best_ep0942.pt",
+      "episode": 942,
+      "eval_mean": 500.0,
+      "selection_seed_start": 50000,
+      "selection_episodes": 10,
+      "reason": "Highest periodic greedy mean; earliest wins ties; no held-out evaluation used"
+    }
+  ],
+  "reason": "Maximum selection-panel mean among prespecified baseline seeds 11,22,33; held-out rewards not read by this function"
+}

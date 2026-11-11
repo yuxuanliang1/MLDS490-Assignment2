@@ -1,0 +1,6 @@
+{
+  "runs": 3,
+  "mean_of_run_means": 435.0,
+  "population_sd_of_run_means": 111.76165114504468,
+  "limitation": "Short-budget replications, not independent full-budget main runs"
+}

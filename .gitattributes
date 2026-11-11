@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+# Preserve experimental data and the supplied final PDF byte for byte.
+*.csv -text
+*.json -text
+*.png -text
+*.pdf -text
+*.npy -text
+*.npz -text

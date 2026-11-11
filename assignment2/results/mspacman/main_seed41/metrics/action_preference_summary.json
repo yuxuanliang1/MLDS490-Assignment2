@@ -1,0 +1,7 @@
+{
+  "reference_images": 32,
+  "distinct_selected_greedy_actions": 7,
+  "fraction_actions_changed_from_initial": 0.9375,
+  "median_top_two_q_margin": 0.2913494110107422,
+  "mean_within_image_q_range": 2.6298465728759766
+}

@@ -1,0 +1,13 @@
+{
+  "trajectory_steps": 10,
+  "seed": 31415,
+  "greedy_action_matches": 10,
+  "sampled_transitions": 40,
+  "max_bellman_absolute_error": 3.0856072719132044e-06,
+  "terminal_samples": 5,
+  "truncated_samples": 4,
+  "reference_protocol": "Saved target network, reimplemented as float64 NumPy matmuls/ReLUs; these are checkpoint TD targets, not historical training targets",
+  "analytical_nonterminal_target": 4.8,
+  "analytical_truncated_target": 4.8,
+  "analytical_terminal_target": 1.0
+}

@@ -1,0 +1,6 @@
+{
+  "checkpoint": "best_ep03114.pt",
+  "episode": 3114,
+  "mean": 1387.0,
+  "protocol": "Highest mean on fixed validation seeds 600000..600009; earliest wins ties; held-out test not used"
+}

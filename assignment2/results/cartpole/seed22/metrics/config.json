@@ -1,0 +1,23 @@
+{
+  "env_id": "CartPole-v1",
+  "gamma": 0.95,
+  "seed": 22,
+  "episodes": 1000,
+  "capacity": 50000,
+  "warmup": 1000,
+  "batch_size": 128,
+  "learning_rate": 0.0005,
+  "target_interval": 500,
+  "target_mode": "hard",
+  "target_tau": 0.999,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.05,
+  "epsilon_steps": 20000,
+  "grad_clip": 10.0,
+  "replay_mode": "random",
+  "eval_every": 25,
+  "eval_episodes": 10,
+  "early_stop_checks": 0,
+  "early_stop_score": 500.0,
+  "max_steps": 80000
+}

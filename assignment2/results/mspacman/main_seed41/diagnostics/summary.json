@@ -1,0 +1,13 @@
+{
+  "actual_transition_count": 36,
+  "terminal_samples": 5,
+  "truncated_samples": 0,
+  "max_bellman_absolute_error": 8.544921882958079e-06,
+  "trajectory_seed": 314159,
+  "first_ten_steps": 10,
+  "later_window_steps": 10,
+  "greedy_argmax_matches": 20,
+  "cpu_cuda_q_max_absolute_difference": 0.0089874267578125,
+  "cpu_cuda_greedy_agreement": 1.0,
+  "reference_note": "Independent float64 NumPy scalar Bellman arithmetic on saved target-network values; not a claim to reconstruct historical update targets"
+}

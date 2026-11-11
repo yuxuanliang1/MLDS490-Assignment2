@@ -1,0 +1,23 @@
+{
+  "episodes": 984,
+  "env_steps": 80156,
+  "optimizer_updates": 79157,
+  "elapsed_seconds": 184.64994453697,
+  "best_periodic_mean": 391.6,
+  "target_updates": 158,
+  "model_device": "cuda:0",
+  "target_device": "cuda:0",
+  "gradient_device": "cuda:0",
+  "optimizer_tensor_devices": [
+    "cpu",
+    "cuda:0"
+  ],
+  "last_update_devices": {
+    "states": "cuda:0",
+    "selected_q": "cuda:0",
+    "targets": "cuda:0",
+    "loss": "cuda:0"
+  },
+  "stop_reason": "max_steps_at_episode_boundary",
+  "max_steps_note": "Budget checked at episode boundary; overshoot <=499 steps"
+}

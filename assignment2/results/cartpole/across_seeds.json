@@ -1,0 +1,13 @@
+{
+  "training_seeds": [
+    11,
+    22,
+    33
+  ],
+  "runs": 3,
+  "mean_evaluation_reward": 433.2246666666667,
+  "std_between_run_means_population": 47.11091650798382,
+  "std_between_run_means_sample": 57.698853379710535,
+  "mean_success_fraction": 0.6846666666666668,
+  "fraction_runs_perfect_500_evaluation": 0.0
+}

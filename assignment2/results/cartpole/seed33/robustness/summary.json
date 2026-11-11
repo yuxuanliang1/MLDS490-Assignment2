@@ -1,0 +1,12 @@
+{
+  "episodes": 405,
+  "mean": 402.47407407407405,
+  "std_population": 170.27322254394753,
+  "std_sample": 170.4838264865889,
+  "perfect_episodes": 293,
+  "success_fraction": 0.7234567901234568,
+  "median": 500.0,
+  "early_failures": 112,
+  "minimum": 1.0,
+  "maximum": 500.0
+}

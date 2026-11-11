@@ -1,0 +1,4 @@
+variant,episodes,mean_difference,bootstrap95_low,bootstrap95_high,resamples
+target_every_update_seed41,30,-169.0,-221.33333333333334,-117.33333333333333,10000
+recent_replay_seed41,30,15.333333333333334,-73.675,124.66666666666667,10000
+epsilon_slow_seed41,30,-169.0,-222.0,-116.65833333333346,10000

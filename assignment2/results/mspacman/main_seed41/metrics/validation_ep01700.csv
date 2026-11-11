@@ -1,0 +1,11 @@
+seed,reward,length,raw_frames,terminated,truncated,life_losses
+600000,530.0,539,2153,True,False,3
+600001,860.0,831,3321,True,False,3
+600002,410.0,489,1953,True,False,3
+600003,700.0,711,2841,True,False,3
+600004,860.0,619,2473,True,False,3
+600005,900.0,881,3521,True,False,3
+600006,1060.0,631,2521,True,False,3
+600007,570.0,677,2705,True,False,3
+600008,460.0,481,1921,True,False,3
+600009,810.0,739,2953,True,False,3

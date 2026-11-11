@@ -1,0 +1,4 @@
+episode,steps,frames,episodes,mean,std_population,median,minimum,maximum,mean_decision_steps,mean_raw_frames,terminated_episodes,truncated_episodes
+0,0,0,10,210.0,0.0,210.0,210.0,210.0,375.0,1497.0,10,0
+100,50248,200692,10,110.0,0.0,110.0,110.0,110.0,531.0,2121.0,10,0
+199,100031,399527,10,407.0,132.66876045248935,510.0,230.0,540.0,694.6,2775.4,10,0

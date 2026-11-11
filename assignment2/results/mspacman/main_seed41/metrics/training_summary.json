@@ -1,0 +1,28 @@
+{
+  "episodes": 3114,
+  "steps": 2000528,
+  "raw_frames": 7992770,
+  "optimizer_updates": 497633,
+  "target_updates": 99,
+  "elapsed_seconds": 3268.5441038840218,
+  "session_seconds": 3268.5441055259435,
+  "validation_seconds_this_session": 141.590685770032,
+  "session_steps_per_second": 612.0547664714265,
+  "session_updates_per_second": 152.24913097142598,
+  "best_validation_mean": 1387.0,
+  "stop_reason": "max_steps",
+  "epsilon": 0.09999999999999998,
+  "peak_gpu_allocated_bytes": 108047872,
+  "rss_bytes": 3552321536,
+  "model_parameters": 1453225,
+  "flattened_conv_size": 2688,
+  "last_update_devices": {
+    "input": "cuda:0",
+    "q": "cuda:0",
+    "target": "cuda:0",
+    "loss": "cuda:0",
+    "gradient": "cuda:0",
+    "adam_moments": "cuda:0"
+  },
+  "resume_checkpoint": null
+}

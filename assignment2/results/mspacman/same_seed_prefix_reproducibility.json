@@ -1,0 +1,11 @@
+{
+  "matched_seed": 41,
+  "compared_decisions": 100031,
+  "first_recorded_transition_difference": null,
+  "parameter_comparison_episode": 100,
+  "max_parameter_differences": {
+    "online": 0.0,
+    "target": 0.0
+  },
+  "scope": "Same GPU/software: all scalar records and image checksums in short-run prefix; exact online/target parameters at last common saved stage"
+}

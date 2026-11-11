@@ -1,0 +1,8 @@
+{
+  "sha256": "60c3b4b349507aec4a19a381dbf9080b06deb227944ac095e7155fded10cd705",
+  "count": 32,
+  "collection_seed": 410000,
+  "random_decision_interval": 25,
+  "unique_images": 32,
+  "statistic": "Mean over fixed references of max over actions Q_online; population SD across references also logged"
+}

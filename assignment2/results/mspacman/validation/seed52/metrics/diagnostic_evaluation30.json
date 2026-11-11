@@ -1,0 +1,12 @@
+{
+  "episodes": 30,
+  "mean": 591.0,
+  "std_population": 267.46152371260183,
+  "median": 490.0,
+  "minimum": 270.0,
+  "maximum": 1170.0,
+  "mean_decision_steps": 577.8666666666667,
+  "mean_raw_frames": 2308.4666666666667,
+  "terminated_episodes": 30,
+  "truncated_episodes": 0
+}

@@ -1,0 +1,6 @@
+{
+  "capacity": 50000,
+  "estimated_bytes": 704700000,
+  "available_host_bytes": 85770194944,
+  "storage": "Both state and next_state int8 CHW; metadata arrays"
+}

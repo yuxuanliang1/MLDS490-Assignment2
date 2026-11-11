@@ -1,0 +1,63 @@
+{
+  "game_over_transitions": 3114,
+  "truncated_transitions": 0,
+  "life_loss_nonterminal_transitions": 6228,
+  "unchanged_processed_frame_fraction": 0.024111134660449642,
+  "zero_reward_transition_fraction": 0.9119892348420017,
+  "max_zero_reward_streak": 535,
+  "minimum_transition_reward": 0.0,
+  "maximum_transition_reward": 1610.0,
+  "action_counts": {
+    "0": 155758,
+    "1": 223033,
+    "2": 175224,
+    "3": 266324,
+    "4": 181621,
+    "5": 201209,
+    "6": 195513,
+    "7": 370580,
+    "8": 231266
+  },
+  "unusual_black_white_q_values": [
+    [
+      -12.640581130981445,
+      -21.931257247924805,
+      -6.7778472900390625,
+      -31.121273040771484,
+      -11.191969871520996,
+      -6.52703857421875,
+      -14.431628227233887,
+      -25.979026794433594,
+      -23.27118492126465
+    ],
+    [
+      92.57229614257812,
+      92.65206909179688,
+      90.99856567382812,
+      93.85953521728516,
+      91.35203552246094,
+      91.4702377319336,
+      93.82930755615234,
+      88.32742309570312,
+      93.4207763671875
+    ]
+  ],
+  "actual_reward_values": {
+    "0.0": 1824460,
+    "10.0": 171596,
+    "50.0": 2558,
+    "100.0": 224,
+    "110.0": 30,
+    "200.0": 1102,
+    "210.0": 152,
+    "250.0": 24,
+    "300.0": 1,
+    "400.0": 294,
+    "410.0": 36,
+    "800.0": 44,
+    "810.0": 3,
+    "1600.0": 1,
+    "1610.0": 3
+  },
+  "termination_note": "Loss of a life is not treated as terminal; genuine ALE game-over alone masks bootstrap. Native frame limit is preserved."
+}

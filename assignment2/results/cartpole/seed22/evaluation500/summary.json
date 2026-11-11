@@ -1,0 +1,17 @@
+{
+  "episodes": 500,
+  "mean": 392.584,
+  "std_population": 125.05924573577117,
+  "std_sample": 125.18449288357179,
+  "perfect_episodes": 261,
+  "success_fraction": 0.522,
+  "median": 500.0,
+  "early_failures": 239,
+  "minimum": 191.0,
+  "maximum": 500.0,
+  "checkpoint": "assignment2/results/cartpole/seed22/checkpoints/best_ep0550.pt",
+  "checkpoint_episode": 550,
+  "epsilon": 0.0,
+  "seed_start": 100000,
+  "selection_reason": "Highest periodic greedy mean; earliest checkpoint wins ties; held-out seeds unused in selection"
+}

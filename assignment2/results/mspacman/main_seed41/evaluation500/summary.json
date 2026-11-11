@@ -1,0 +1,17 @@
+{
+  "episodes": 500,
+  "mean": 1501.06,
+  "std_population": 493.7208486584297,
+  "median": 1430.0,
+  "minimum": 590.0,
+  "maximum": 4800.0,
+  "mean_decision_steps": 856.52,
+  "mean_raw_frames": 3423.08,
+  "terminated_episodes": 500,
+  "truncated_episodes": 0,
+  "checkpoint": "assignment2/results/mspacman/main_seed41/checkpoints/best_ep03114.pt",
+  "checkpoint_episode": 3114,
+  "epsilon": 0.0,
+  "seed_start": 900000,
+  "elapsed_seconds": 251.65817692200653
+}

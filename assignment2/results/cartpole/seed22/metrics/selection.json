@@ -1,0 +1,8 @@
+{
+  "checkpoint": "best_ep0550.pt",
+  "episode": 550,
+  "eval_mean": 473.7,
+  "selection_seed_start": 50000,
+  "selection_episodes": 10,
+  "reason": "Highest periodic greedy mean; earliest wins ties; no held-out evaluation used"
+}

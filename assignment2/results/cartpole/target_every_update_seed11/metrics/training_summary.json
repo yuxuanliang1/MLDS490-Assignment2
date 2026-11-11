@@ -1,0 +1,17 @@
+{
+  "episodes": 1000,
+  "env_steps": 15769,
+  "optimizer_updates": 14770,
+  "elapsed_seconds": 37.43867055606097,
+  "best_periodic_mean": 9.4,
+  "target_updates": 14770,
+  "model_device": "cuda:0",
+  "target_device": "cuda:0",
+  "gradient_device": "cuda:0",
+  "optimizer_tensor_devices": [
+    "cpu",
+    "cuda:0"
+  ],
+  "stop_reason": "max_episodes",
+  "max_steps_note": "Budget checked at episode boundary; overshoot <=499 steps"
+}

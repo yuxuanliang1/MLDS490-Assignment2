@@ -1,0 +1,2 @@
+# Complete project dependencies; versions recorded in the verified deepdish5 environment.
+-r assignment2/requirements_mspacman.txt

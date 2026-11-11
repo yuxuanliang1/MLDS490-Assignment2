@@ -1,0 +1,1272 @@
+{
+  "repository": "https://github.com/yuxuanliang1/MLDS490-Assignment2",
+  "purpose": "Original compact evidence selected for public review; no model weights or full training replay/logs.",
+  "final_pdf": {
+    "path": "MLDS_490_Assignment_2.pdf",
+    "pages": 22,
+    "sha256": "43ef5c355e210d2360c7ff0a0404a89abf161bb8914ce27ebcb2150b0958e942",
+    "modified": false,
+    "metadata_note": "Title-page URL matches repository; Section 7 retains supplied metadata placeholders."
+  },
+  "evidence_files": [
+    {
+      "path": "MLDS_490_Assignment_2.pdf",
+      "bytes": 1122850,
+      "sha256": "43ef5c355e210d2360c7ff0a0404a89abf161bb8914ce27ebcb2150b0958e942"
+    },
+    {
+      "path": "assignment2/results/cartpole/across_seeds.json",
+      "bytes": 318,
+      "sha256": "3cab7968bbdcd50f15d499a40eeaffdcce2aed3045766c5eb5079bde73235b93"
+    },
+    {
+      "path": "assignment2/results/cartpole/artifact_verification.json",
+      "bytes": 1405,
+      "sha256": "fb1a6033a9ea9fa2842df5c83af1f6f7e6b0eb99fc1abbe65dded3c9c7837de7"
+    },
+    {
+      "path": "assignment2/results/cartpole/comparison.csv",
+      "bytes": 2016,
+      "sha256": "1a4c59570ede2b20ad4df76cb7e011a60080d1f144c07ae6510c241275964b5b"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/evaluation500/episodes.csv",
+      "bytes": 14040,
+      "sha256": "864b45fdf568018e242652ef46f97de46cd4f90526d4f130a776a442edb06a9a"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/evaluation500/summary.json",
+      "bytes": 538,
+      "sha256": "80ec00776b74b5fd97123bca0bd5b30de85982e3a0cdf03caf5127b2758f6eb3"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/logs/episodes.csv",
+      "bytes": 151579,
+      "sha256": "922e64029f08f45d4f7488d5878573a58960aa9eca255bb8432dcc3ea1c99a2b"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/logs/periodic_evaluation.csv",
+      "bytes": 1330,
+      "sha256": "7c9c60b1b36286b8548fa2eb61aab726bec781958323283ec9b750b98a7269af"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/metrics/config.json",
+      "bytes": 482,
+      "sha256": "41a8f44d8eba71882a921e1f7ce969daa2cbcacef31d35fc79f33d158c319eac"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/metrics/final_snapshot_diagnostic100.csv",
+      "bytes": 2840,
+      "sha256": "fe6784f182663a30ae1938f7032cc4ba0eb895a0c76221ad312cc8aaa4bc9e14"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/metrics/final_snapshot_diagnostic100.json",
+      "bytes": 251,
+      "sha256": "1ca7ca598f81af48860b32970eee6d9f28e3356e624eac73fcbeaad64244e27e"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/metrics/selection.json",
+      "bytes": 231,
+      "sha256": "2e5dd781f76c9eb944f2a0eeba8c91b5526990809f7254c55d3fd8bde35de2d1"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma090_seed11/metrics/training_summary.json",
+      "bytes": 578,
+      "sha256": "f98037da6f85cbf940b84944d620ca21d11289582cd13295494f4162aadc62ab"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/evaluation500/episodes.csv",
+      "bytes": 14032,
+      "sha256": "3f8c10e35b7950781e9d4f009230c05913ae01f4963ad508cda783a01de4c1c9"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/evaluation500/summary.json",
+      "bytes": 534,
+      "sha256": "07115bb11d5215fe8f8f7135e8c85d9e8bd69ac13e17ed91b936a34fb6ec1da9"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/logs/episodes.csv",
+      "bytes": 150903,
+      "sha256": "23cab1d333ddd8f506e6b074cef0d23432777450e8b4c51c43bf95e8b23efbc0"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/logs/periodic_evaluation.csv",
+      "bytes": 1348,
+      "sha256": "4cd777fe24b26c8ea6ed5c008e8e1e25e97ce997f46f344ac5a05416ffdcc57a"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/metrics/config.json",
+      "bytes": 483,
+      "sha256": "f7f05bb1b30792e207417f6b6ebf75807e09f909c4038edf780188c7281bc411"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/metrics/final_snapshot_diagnostic100.csv",
+      "bytes": 2806,
+      "sha256": "2109ef0518a0b520f06f5ff6fd73ee81a58b5f0e1e1b0d6fae09ce376769b090"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/metrics/final_snapshot_diagnostic100.json",
+      "bytes": 251,
+      "sha256": "166665f510fc687a350976f3425ff074e406abd935cfdb360e7a5be1b0e7b607"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/metrics/selection.json",
+      "bytes": 231,
+      "sha256": "6bc63f94382632e58b3dd7c279d0a741b469f0ca8115eabb1cb181e22e692d03"
+    },
+    {
+      "path": "assignment2/results/cartpole/gamma099_seed11/metrics/training_summary.json",
+      "bytes": 565,
+      "sha256": "38c1fca9ebd91f84604350ec3c6ec4080924a63ce0ee2d9421fdfe7ae9c5d551"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/diagnostics/bellman_reference.csv",
+      "bytes": 6692,
+      "sha256": "00512fc3bcf151bd428a04684908be50f0c30c62da13551ccad4d63246ee91f7"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/diagnostics/summary.json",
+      "bytes": 488,
+      "sha256": "ca3d45924dba9670a5d747c687fd9d888271baf281c8e3f6206e6343fc8f3793"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/diagnostics/trajectory10.csv",
+      "bytes": 2529,
+      "sha256": "a216e654bad10405f39c20d414554f414c908d995ee381d8c1089296fc67186b"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/evaluation500/episodes.csv",
+      "bytes": 14040,
+      "sha256": "fe450cf3e7dbd87fe86a7e4ce34f737eb9b666a4c1fd0cf5247b7128881ac04b"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/evaluation500/summary.json",
+      "bytes": 536,
+      "sha256": "52426ab7d7a9a5766db9f1a50d83bc68c11e25dde877f5bbde05376945b7c312"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/logs/episodes.csv",
+      "bytes": 136385,
+      "sha256": "e0e4ccbfae9f66a0a6d34f890c7db1ddbc2e2f9c0b879aeceec26d7aa7ef108b"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/logs/periodic_evaluation.csv",
+      "bytes": 1215,
+      "sha256": "b6a3a2e00eb264bc89ed368ec2730b1eb163726b0e3380d3e3d39ea7bb688681"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/metrics/config.json",
+      "bytes": 483,
+      "sha256": "68e04972b07cdcd99cc931ec73bdaf9e1016135ca62bdfa79e787c23ff1873b4"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/metrics/final_snapshot_diagnostic100.csv",
+      "bytes": 2840,
+      "sha256": "6177ead8da792fba55e318bfea92fc7f0b48006122f6a98c8eebf88472d99d11"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/metrics/final_snapshot_diagnostic100.json",
+      "bytes": 253,
+      "sha256": "6138078b2ebd2d9a23b587f0ce158d6b48eadb4ca5b27765fcc6f3e7b7e44539"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/metrics/selection.json",
+      "bytes": 231,
+      "sha256": "180747344f0402a219156dd253316ecd80b5ed342c1fb69d8c1c79e939bdcaed"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/metrics/training_summary.json",
+      "bytes": 451,
+      "sha256": "ff325ff63126b98b902db4f1b9260361e2d8d12877a15e89fec39cfa8e93b65c"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/robustness/episodes.csv",
+      "bytes": 15806,
+      "sha256": "56f5d1f444228074f8908b2242b87067294bc6ab0a256774d97d87c361161ecb"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/robustness/grid.csv",
+      "bytes": 3533,
+      "sha256": "9c0c8e76ae053d6a32d5f4128d8506d1a215b9fe935855729e95c19b4ac6508d"
+    },
+    {
+      "path": "assignment2/results/cartpole/main_seed11/robustness/summary.json",
+      "bytes": 265,
+      "sha256": "21230e7dda393e5b0bd81f0e3e14c73ad2bcec75e4397ca5908ed5a1c22f8dc3"
+    },
+    {
+      "path": "assignment2/results/cartpole/primary_selection.json",
+      "bytes": 1151,
+      "sha256": "69e03f053e81908c6035c3699ed03250d91614817a6574170b3dab66a1ff55fe"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/evaluation500/episodes.csv",
+      "bytes": 14040,
+      "sha256": "7162de9e4db4b7bf04e419988dac2ea8cc5f47f5863734cc5a0f94f57a74d4ab"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/evaluation500/summary.json",
+      "bytes": 544,
+      "sha256": "12349ae5b282867a08af9f453174d91e4c440c93fcab9f34812e539a1ec357c6"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/logs/episodes.csv",
+      "bytes": 121659,
+      "sha256": "5dd0e07b16fa0b50c27c83f17133af702425dc3b092df66f9302665d09445c3d"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/logs/periodic_evaluation.csv",
+      "bytes": 1069,
+      "sha256": "1b866317519b2e78cbc5a7c10ea7e92c4018eb8a6aee5612794c65fd90081315"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/metrics/config.json",
+      "bytes": 483,
+      "sha256": "db688a2ca764afa09e0383cd36bd43101b70fd7471a70753756a2dc6e4f99d3a"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/metrics/final_snapshot_diagnostic100.csv",
+      "bytes": 2840,
+      "sha256": "8d623b74f19840116d9b4698795a08908d373c313b69d6c086d5cd0d2087e70e"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/metrics/final_snapshot_diagnostic100.json",
+      "bytes": 249,
+      "sha256": "5eef8419393319e2ee90290b5882b2a8bb5323eb875f1b89d605e1d377b29fd8"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/metrics/selection.json",
+      "bytes": 231,
+      "sha256": "a43b3a0468849677004343942aa1f5e5cbfe0d3c0af69c643bed22765f270631"
+    },
+    {
+      "path": "assignment2/results/cartpole/recent_replay_seed11/metrics/training_summary.json",
+      "bytes": 451,
+      "sha256": "f3794b1c4f4ce560134768d837ee00b9c59b987bd8890e11f2e530a229414f73"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/evaluation500/episodes.csv",
+      "bytes": 14040,
+      "sha256": "a6fe4348113713bc428316917e2e29cb268b8e078bb623ae3ba3db1095bbeb9f"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/evaluation500/summary.json",
+      "bytes": 531,
+      "sha256": "e4e54845f9f25a26b87f7d10b93488a8fe9801110d6e3c897de3512716ca5d52"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/logs/episodes.csv",
+      "bytes": 135074,
+      "sha256": "69ddfd6aef698c2c3394d019ba3d86c7d9f19ce6aaf2efb3e63fc4c31b00de18"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/logs/periodic_evaluation.csv",
+      "bytes": 1209,
+      "sha256": "a4e109489547e0643166bda17e2473d1efdaeef4f60fca355e7dcf3bda556b97"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/metrics/config.json",
+      "bytes": 483,
+      "sha256": "330a1c7231062028518fa2621c58a1fd6dc826f97d840eb0fb45c2d849f9d742"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/metrics/final_snapshot_diagnostic100.csv",
+      "bytes": 2836,
+      "sha256": "a435c7f194ce613420a1336d9e1f60a40872276e1ab22dcc3a0ce75397c6083c"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/metrics/final_snapshot_diagnostic100.json",
+      "bytes": 251,
+      "sha256": "32f327a45ed591c4fd975a91e8b660460922da62a0dc15b215c56649225d449a"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/metrics/selection.json",
+      "bytes": 231,
+      "sha256": "7d6c433098fe597afdb114f996e3874a05b4b32ee056b8913b57dc31a8170536"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed22/metrics/training_summary.json",
+      "bytes": 451,
+      "sha256": "f407877e03ec68b2c2123290cd0fc010ab360e9c697cf1acdf1a4e8b5a58f087"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/diagnostics/bellman_reference.csv",
+      "bytes": 6734,
+      "sha256": "2656fb5e1b5086766c98d2ad5db31292cf001478e57716bc2e6befe2402fec56"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/diagnostics/checkpoint_reload.csv",
+      "bytes": 5083,
+      "sha256": "46375ce26720f6d0e1c8aee6e1764ccee25f92042b827feaba52da87580abc72"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/diagnostics/summary.json",
+      "bytes": 618,
+      "sha256": "c88310c832f981cf81304b684772353d4c0fc6156c52b9d7f5f755aa13a50112"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/diagnostics/trajectory10.csv",
+      "bytes": 2513,
+      "sha256": "c5a2740a504c490b6a6638fb9f9f20ae013c416217d31d8d97320cfe7885d9f6"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/evaluation500/episodes.csv",
+      "bytes": 14040,
+      "sha256": "2a459d398a1d601267f9efb68d1717608c93d6b4f324d0d466f4c39f0f7d7c8b"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/evaluation500/summary.json",
+      "bytes": 529,
+      "sha256": "7b5bca056284a948bcbc7ecf61b5911e5b8fd10f187d631de968a44b21dca2da"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/figures/evaluation_histogram.png",
+      "bytes": 110225,
+      "sha256": "daa8063fadb73bf3c6a19172d55ac158bf43d53746199b9c95dd380da31dbe35"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/figures/initial_state_max_q.png",
+      "bytes": 122160,
+      "sha256": "1ac1d507a9e567ee78ee98930e20ae68c1f303550ae7cbbb06d19d2a82a72ad6"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/figures/initial_state_robustness.png",
+      "bytes": 117876,
+      "sha256": "f0117b7bd5d33355caeaf7821ecc75c7dbe6f97a266485c7fa9a94fcfdd8d221"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/figures/optimization_diagnostics.png",
+      "bytes": 174854,
+      "sha256": "97b88c22e588ecf2516ba5ebfd5cc1d2649313a3458ffd90b6cd2bf94b370129"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/figures/policy_action_map.png",
+      "bytes": 284835,
+      "sha256": "fb37a861f44f1f8584dabc754ddcf160c1d7da164e80b27aa95644b07d83fdb9"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/figures/training_rewards.png",
+      "bytes": 312036,
+      "sha256": "667afa6ef0523024e84e6ba995297005d0b9f30676f3fc4090ec283b2d2c8fd2"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/logs/episodes.csv",
+      "bytes": 144624,
+      "sha256": "95d0a2bafb82df10458ef84c426b7d6c1080ce52e955cd6ae3be786f1b8986b2"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/logs/periodic_evaluation.csv",
+      "bytes": 1225,
+      "sha256": "204a0ef55ed17b4c365a5f889dcfc974585149f3dfcaaba669abe88557ef733f"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/metrics/config.json",
+      "bytes": 483,
+      "sha256": "d54745db7a138fdf46ea5b078ff0b6e2d9366c3af1dd594257e3aca9cfd4c48d"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/metrics/final_snapshot_diagnostic100.csv",
+      "bytes": 2840,
+      "sha256": "55d4153885bc965e8a6299aeba9f619bd6fa15535780d9631257ab0f4200470e"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/metrics/final_snapshot_diagnostic100.json",
+      "bytes": 251,
+      "sha256": "20023d69bae6312b06a571c8a36c18843b8c07513ed12fd410c11b976c3f562a"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/metrics/policy_grid.csv",
+      "bytes": 960681,
+      "sha256": "abebc1487a53dbefdda67c03bcc4c48239835630499cc6733aeedce1af4fe209"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/metrics/selection.json",
+      "bytes": 231,
+      "sha256": "377b1196e0b7bbc8b0207533f63cc0b449444bde80af7bf8346c783571f7b13b"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/metrics/training_summary.json",
+      "bytes": 451,
+      "sha256": "91ade5c47459e6d9ab6ef5d4894da63ecc70b0562470d6401a6ce403a29618d2"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/robustness/episodes.csv",
+      "bytes": 15904,
+      "sha256": "688d386af9003e247a61131201ae4898b4574fc7c628d33488880f9a05232b3b"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/robustness/grid.csv",
+      "bytes": 2903,
+      "sha256": "df7f3da22e58cb055f30bb05af464cd959314435cb05532846a0b1bd8874ff06"
+    },
+    {
+      "path": "assignment2/results/cartpole/seed33/robustness/summary.json",
+      "bytes": 278,
+      "sha256": "1f461349ffdc456d5aa7d8082290c1c238895078efd91fbc822b4915d3f2a130"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/evaluation500/episodes.csv",
+      "bytes": 14040,
+      "sha256": "83687e83b9be6db908ad6ef18d119586a8c6b633e52e587cf8e8e6663fc2e4ca"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/evaluation500/summary.json",
+      "bytes": 537,
+      "sha256": "4add2f0918f78edcd9bed43de6d53d8cea2e29045150fd6513e8dabdc35a7369"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/logs/episodes.csv",
+      "bytes": 148339,
+      "sha256": "ef32ccd787b613cff5c6eda192e719aef8ccf3cda8d05d98f9cc9f020776afef"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/logs/periodic_evaluation.csv",
+      "bytes": 1271,
+      "sha256": "2cddb62c299a6efa07623a4fbfdc2a34c9d59e0d13ac17b1af53978ea2311269"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/metrics/config.json",
+      "bytes": 483,
+      "sha256": "a27bb1a5f511776d4beb60a73ffcaf560528a5afecb305f5b58dea2ecdc7eae0"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/metrics/final_snapshot_diagnostic100.csv",
+      "bytes": 2682,
+      "sha256": "82df440bade63ab90faff0dd87f350e06c550b0ae658fed508d1562dd0d23b56"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/metrics/final_snapshot_diagnostic100.json",
+      "bytes": 249,
+      "sha256": "434dd0cc7772d19d4459f5a5a8bf82956dd4119b5d91258f21b19597b90c8bb7"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/metrics/selection.json",
+      "bytes": 231,
+      "sha256": "a897bc3349ede20febe5814d7646e9f7d810b2a2cb3547ee383860df9181e910"
+    },
+    {
+      "path": "assignment2/results/cartpole/soft_target_seed11/metrics/training_summary.json",
+      "bytes": 453,
+      "sha256": "4fa788ff9c6eb09e0e7fda29957585b8c7ae515cb943e4d111d1589f99e18c6c"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/evaluation500/episodes.csv",
+      "bytes": 12496,
+      "sha256": "c0b7e7f09613592d56ed202834b440bab6a49fa604b060002c52dd39a3a4648e"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/evaluation500/summary.json",
+      "bytes": 537,
+      "sha256": "18b38cb36697dfc68cc7df73dca93cac17371e49e0b079dbb53ab8e3ae76a134"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/logs/episodes.csv",
+      "bytes": 134095,
+      "sha256": "cf8f839628dfc47c5cb8e1acf612fb87ffe5f777daf89469a305ae12954ceac8"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/logs/periodic_evaluation.csv",
+      "bytes": 1309,
+      "sha256": "3fd0fed20463ce5b5f5a48107733e27d4c49c491030dd54e611d1131b4998c7f"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/metrics/config.json",
+      "bytes": 481,
+      "sha256": "fc67b44ece509520b868b8c718e43357a9b2f16df6be38c8f402de7dd9d03d00"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/metrics/final_snapshot_diagnostic100.csv",
+      "bytes": 2534,
+      "sha256": "1d00360916cb04126c8b147b0ade29f4347102fdb2cfb0e1f8d5f67653fbe3b3"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/metrics/final_snapshot_diagnostic100.json",
+      "bytes": 245,
+      "sha256": "20ccb509bfecf6ea841c5b56e3bbecfbebd82b0b4023b25d6807f3f9154ed048"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/metrics/selection.json",
+      "bytes": 228,
+      "sha256": "3285de59294e87880d441f60465bb571d56c00137adda1b3a7b1a4d1be8b6782"
+    },
+    {
+      "path": "assignment2/results/cartpole/target_every_update_seed11/metrics/training_summary.json",
+      "bytes": 434,
+      "sha256": "d6040d9fc3521e5e5696865ae000c66f2ab6aa283aab1542b0d66d90cbbd8b21"
+    },
+    {
+      "path": "assignment2/results/cartpole/validation_learning_curves.png",
+      "bytes": 567799,
+      "sha256": "abb5f14c11bd15ec0bd8f3b7b88307a573ee543f797ba09c682cce83e3892bec"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/diagnostics/bellman_reference.csv",
+      "bytes": 2701,
+      "sha256": "af4c48d32410deee822a1af7b0345c60acbecf6c66b85d2131b08c5460c526fb"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/diagnostics/edge_cases.json",
+      "bytes": 1486,
+      "sha256": "47542199761f99fefc58329ec9325cb3effb96169cc722d49416cebf725d00dc"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/diagnostics/sampled_actual_transitions.npz",
+      "bytes": 22392,
+      "sha256": "4a767b85c800250d9d1fb70722bae17e46a79f347d0f9a6ae84647838bdc6cba"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/diagnostics/summary.json",
+      "bytes": 511,
+      "sha256": "97523a54efbf2fc9b52b3b0aed9dcdc5ebb5f6b562460bb1bfdef709df0118a4"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/diagnostics/trajectory.csv",
+      "bytes": 4302,
+      "sha256": "cd0f41ee8815bcff763bca3aade01588172a6f985b58a8c044c3427e65a70a76"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/diagnostics/trajectory_images.npz",
+      "bytes": 35748,
+      "sha256": "784c82388c4e1b5a365bfa680fc81ebf21fc32eb599cb08ae175649f04ec11aa"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/evaluation500/episodes.csv",
+      "bytes": 18078,
+      "sha256": "1c2d6df4a76968f8783822172dad0b127edbf4c35d9b650e34c25ca5196b6faa"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/evaluation500/summary.json",
+      "bytes": 462,
+      "sha256": "9be479bec24d970ae963672efc9321e33c4d657c0626af219753cee95d87f6b3"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/figures/evaluation_histogram.png",
+      "bytes": 97138,
+      "sha256": "77719fac49b7a5b847f4db9a85994d034a795013fccafc83c29b2960fa46a433"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/figures/learning_stages.png",
+      "bytes": 126008,
+      "sha256": "ff6ddfd2131ac8cc60144b7ad11a896e2e0939ad3babb4e665ddb9fa78450250"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/figures/maximum_q_values.png",
+      "bytes": 225031,
+      "sha256": "b9a2b5bcdcc56774de1bbf113a847ff6f6b9021e2c88d9367740d67f744777a2"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/figures/optimization_diagnostics.png",
+      "bytes": 259892,
+      "sha256": "b43f175c4723a9b1c51b79a5afa3eb66548de1c92f6b844952f62d927fa33e91"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/figures/state_action_preferences.png",
+      "bytes": 454120,
+      "sha256": "3956d967aeaf214f418fade1ad30e5fc51ffaeb10ca79a8df6b9f2c8324fc7eb"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/figures/training_rewards.png",
+      "bytes": 256009,
+      "sha256": "610a033ff1303adf8a452b58f875e9a9b88d9fe88b850260735262b7b0f87d52"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/logs/episodes.csv",
+      "bytes": 763514,
+      "sha256": "3da19508dfce64bdefc6ae0913a76c23fb6fe38b2c87e83a28063049c6b4fdfd"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/logs/validation.csv",
+      "bytes": 2933,
+      "sha256": "0e202686c89a2107dd8fed2c9d03a2ea01d4db334e92fc27522198ad8e4912e6"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/action_preference_summary.json",
+      "bytes": 221,
+      "sha256": "5a033c910a5ebdd149731344e117df17be4a5a4b4c59243a30559cbca2586ec8"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/action_preferences.csv",
+      "bytes": 10269,
+      "sha256": "d628169af59b37d7aaed14132ac436efbe5b0c29e48818b97a566906aaddace1"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/config.json",
+      "bytes": 502,
+      "sha256": "9ff26335e2f3f0eadb981f927473e9af66b19963b100c7ce3bd732bcc71ad627"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/environment.json",
+      "bytes": 1051,
+      "sha256": "cd30361475e0fd0c0c485cd2cafd3cd5449623f760ec2f0b93eff19eec4aa496"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/learning_evidence.json",
+      "bytes": 655,
+      "sha256": "19ad6391e7feff9f4d40d71fe869021e0be3ae552470c04d6fa401ab1ea82708"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/learning_stages.csv",
+      "bytes": 530,
+      "sha256": "d4ebf4c3d12d481c578114bae22aced5bbf55cb4d51ed1b26ab15cb9b1832d3e"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/random_policy_validation.csv",
+      "bytes": 413,
+      "sha256": "b1ba64c3a94e6581fe60f729e93d03c0b22740e02c3438aaf4c57595c6652a86"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/reference_images.npy",
+      "bytes": 225408,
+      "sha256": "60c3b4b349507aec4a19a381dbf9080b06deb227944ac095e7155fded10cd705"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/reference_protocol.json",
+      "bytes": 303,
+      "sha256": "3a53ffac64ccd4ca40586bd62866578513c4cdbcfffde23dfbbd0a1d48caf629"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/reference_rgb.npy",
+      "bytes": 3225728,
+      "sha256": "c9ccd071fa28205ed8d1284565de9c3a4dcca365b0d2cd0c38fb13b47333078a"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/replay_memory.json",
+      "bytes": 163,
+      "sha256": "02a25d6c22a5af08f74aa638a22ca85dcc3fad759c0de397127583400edc7835"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/selection.json",
+      "bytes": 190,
+      "sha256": "1febc273d44c4afa130213d4d84f238f126638d49871374ba3b0baa052218a38"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/training_summary.json",
+      "bytes": 793,
+      "sha256": "bce22c361c4c084e3fa46878c165c95824004856b43ad424f98c425f1a4d646d"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00000.csv",
+      "bytes": 413,
+      "sha256": "33c819a514afd9b42dbccd23efc0de00460aaf1a50d2b653d1ff88e4f4d20fe2"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00100.csv",
+      "bytes": 413,
+      "sha256": "16fd97b06396f8cdbcff97ecfc349088682c4280d411289fd6773648f427f8de"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00200.csv",
+      "bytes": 413,
+      "sha256": "8ecdb4a5611cf535e5c48713d96a1f8784a1656206bfdbe142149c4be6257202"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00300.csv",
+      "bytes": 413,
+      "sha256": "782e932111e0c5a5ec56c53d53a37dc411828eb10cd48aa85d58f990bf8f4242"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00400.csv",
+      "bytes": 413,
+      "sha256": "fc3f4ec34b9fc6c94f1cde12bb85902f5c3a8b3b41d241f88b7e5cdb8b3ee5de"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00500.csv",
+      "bytes": 415,
+      "sha256": "15e4e5a53f83a783a1ad58ec4dcd48010e9c589532f1dec236c0052a392bd268"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00600.csv",
+      "bytes": 415,
+      "sha256": "78c4719478b2925a7d9b7731e224087c5431754545f1cbacd0ec63bfa116b911"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00700.csv",
+      "bytes": 415,
+      "sha256": "47d651ba92ff0651ca47735eb5445995ff84f3593c096cfa86e6033cb0fdd3bc"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00800.csv",
+      "bytes": 413,
+      "sha256": "584bd5e38abc171eab77ab07876f70ba61058e0fed4dc5840690d32362a127dd"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep00900.csv",
+      "bytes": 414,
+      "sha256": "c6f5479cad4251d9c6e43d44706a086fafc4d095ae9b17ad5cefbf2eca8dbdfe"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01000.csv",
+      "bytes": 415,
+      "sha256": "1c29671853aebfd2015a9b9ca16249fc0dac92bbf0efa41cd9c5c70bccc4e88a"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01100.csv",
+      "bytes": 415,
+      "sha256": "02cf77b3465b1100dfc04c629d1a9b84ec575c2d8dea62fc902725c91555a45f"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01200.csv",
+      "bytes": 414,
+      "sha256": "400863541cb06248c95862722fe68c78c9d9cccb47a56c6684c098e914c0a12f"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01300.csv",
+      "bytes": 416,
+      "sha256": "87cfba757aba43dd30c3c35478a63b5a3412df3758149c4e07dd2aa8cc56618f"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01400.csv",
+      "bytes": 415,
+      "sha256": "706bbac6ceebd81f4aa3b4361e67605fcd7e91d9a992caf3bd15169cb24b967d"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01500.csv",
+      "bytes": 414,
+      "sha256": "60ca144e4f792e54eba221cbfee2b52b5a400c118d126b0be862cc53b9078904"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01600.csv",
+      "bytes": 414,
+      "sha256": "0ee1b47ad06523bc9167c95ecc29c1f1d2bfa63daa9bb624a2a2ba78371056e1"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01700.csv",
+      "bytes": 414,
+      "sha256": "820b97495a9179daedb36aa2ab6d09529d355baacf2506705965da53bddb9014"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01800.csv",
+      "bytes": 414,
+      "sha256": "1337df0715f50228925bb49b68afc5c687771433741107a82b92aacc8bd9ca56"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep01900.csv",
+      "bytes": 416,
+      "sha256": "1b8d70b56fe9f85ccf3d2209725c97f9584a8267dbd536622ad9d7b8963ffc08"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02000.csv",
+      "bytes": 413,
+      "sha256": "82b6b99a07100b1fa90c154e4cacc64fadb1d51d66ae1df63d5b987d5925470e"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02100.csv",
+      "bytes": 414,
+      "sha256": "bdce62186bec04c17f6ab884351186e3d3577ab399306bc00495cb3a0cda91b3"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02200.csv",
+      "bytes": 415,
+      "sha256": "295d5327c74aa9b7b6bd39f3b2d39658d61a5214ff07ee3bd4cebcd82c953fc4"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02300.csv",
+      "bytes": 418,
+      "sha256": "531627a5ba974d9f148d1bf6d358a8194aef5a6b98c25440a62b9e6a005554e5"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02400.csv",
+      "bytes": 415,
+      "sha256": "b82e99c4ff8744a3ed4738581208f53321c33bfcd2e283baaac32c227950667b"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02500.csv",
+      "bytes": 420,
+      "sha256": "fa74d1444418408d59f35b10d7f9f9ebeec6f543a73bc89d1ec1d73d31d6975d"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02600.csv",
+      "bytes": 416,
+      "sha256": "1f5cc9924b7e79a4482e0c0d00b8950d6c5f14e108e38e9e25fb088130596d29"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02700.csv",
+      "bytes": 415,
+      "sha256": "e1eb3c9466b3f5a81694f3b59c147ec8f2b8d5fba92c4527e32afa4ff7886fd0"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02800.csv",
+      "bytes": 420,
+      "sha256": "1aae75360e8dd79a9ecfeee677a1214467c5cfb4906d33916067f069b309204c"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep02900.csv",
+      "bytes": 416,
+      "sha256": "1bf4782c34e2eb82aeffabe2f351f9ac0ef42f192acca046ea03886d533e4581"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep03000.csv",
+      "bytes": 414,
+      "sha256": "ca61454f97befcac0ac419302da50b157a9ef0a7ec77bc7ca91f569d1196e50a"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep03100.csv",
+      "bytes": 418,
+      "sha256": "287f2f645f155639abf3388b32d4a5c609b2ca08cede13d52a869396cc288622"
+    },
+    {
+      "path": "assignment2/results/mspacman/main_seed41/metrics/validation_ep03114.csv",
+      "bytes": 425,
+      "sha256": "4ccdf1454d801ab92bd7bccb390a62095b68b23fd54f66313270e64f4b36e82e"
+    },
+    {
+      "path": "assignment2/results/mspacman/recovery_validation_summary.json",
+      "bytes": 813,
+      "sha256": "07a308c36dbffceb822019aaf6b0ae0b08185cc228d4b1792d4a789ffb77a964"
+    },
+    {
+      "path": "assignment2/results/mspacman/same_seed_prefix_reproducibility.json",
+      "bytes": 370,
+      "sha256": "5730fe21ce7a7d5d20bd83ef39aa883fb0d7e1da1cf796264426c351df5aa031"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/logs/episodes.csv",
+      "bytes": 45325,
+      "sha256": "fd29d6b4d13daf13b0505126f0f8d173d434be1301834a7979c8da58efc3d68d"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/logs/validation.csv",
+      "bytes": 355,
+      "sha256": "9df266066e133ac2e0c3b117426dd8a30735d1c2b6415f54b3bc17fea680aae1"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/config.json",
+      "bytes": 501,
+      "sha256": "7e493555f6ad78845229ecf86b28cf9cf356ddd580711c671924f5de414c2412"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/diagnostic_evaluation30.csv",
+      "bytes": 1113,
+      "sha256": "6f1c02ec60b06e103b2776b31ccc4e7741a1139aa39be47ad4f8d18c96f98488"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/diagnostic_evaluation30.json",
+      "bytes": 278,
+      "sha256": "8311f588ca0515349df0059eb704a689d120f0f736f783d9ca51423ef744bfc5"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/effective_config_session00.json",
+      "bytes": 581,
+      "sha256": "5cc9a509b2f005ce3442c1af2e3393c44bb33a670f01d7d66ec93ae9321ee042"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/environment.json",
+      "bytes": 1051,
+      "sha256": "cd30361475e0fd0c0c485cd2cafd3cd5449623f760ec2f0b93eff19eec4aa496"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/reference_protocol.json",
+      "bytes": 303,
+      "sha256": "3a53ffac64ccd4ca40586bd62866578513c4cdbcfffde23dfbbd0a1d48caf629"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/replay_memory.json",
+      "bytes": 163,
+      "sha256": "4f54d315c1355c7e31ab0225046c07530b2c86c1655d5c378325fa08ae1b3e5d"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/selection.json",
+      "bytes": 188,
+      "sha256": "aff4368f5d42d1ec80b5d89d275a6e3889a800496c5e0079ae218bfe9c59b6a9"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/training_summary.json",
+      "bytes": 1389,
+      "sha256": "7d45e3345094d63fec2101cf7444bcbdada57762ed4aca8e5bf95e65a0c5827c"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/validation_ep00000.csv",
+      "bytes": 413,
+      "sha256": "33c819a514afd9b42dbccd23efc0de00460aaf1a50d2b653d1ff88e4f4d20fe2"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/validation_ep00100.csv",
+      "bytes": 413,
+      "sha256": "16fd97b06396f8cdbcff97ecfc349088682c4280d411289fd6773648f427f8de"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/baseline_seed41/metrics/validation_ep00199.csv",
+      "bytes": 413,
+      "sha256": "2c3fcd512fe6f21afe02874fca1b5be46dce33851019336c9e8810b764d18ec6"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/comparison.csv",
+      "bytes": 1506,
+      "sha256": "e4276f7bae77aff6e47d97c56361c30572c5542e6a064ece9c191ecfcf453554"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/logs/episodes.csv",
+      "bytes": 44858,
+      "sha256": "d1c4b69300d0b99e2b4212faec0c6f368c05abdffd511ee70003c91ec7a30ad6"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/logs/validation.csv",
+      "bytes": 354,
+      "sha256": "90d7788e50ad20c350c698a3860b6f5f55cf0b37dea99f775dca6c7e5c9525da"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/config.json",
+      "bytes": 502,
+      "sha256": "b081258f57502c3e38b7dc4a3522c30d5ecf26a40a265ca7372a4231956caa31"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/diagnostic_evaluation30.csv",
+      "bytes": 1113,
+      "sha256": "e988abd152f7648597316a2258efcd09f59befc34ee41d2f631942af4027699c"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/diagnostic_evaluation30.json",
+      "bytes": 239,
+      "sha256": "ae55d2d1ac87d39b07a202df5a769badf46041c5a3eda0d25d117838a53995c2"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/effective_config_session00.json",
+      "bytes": 582,
+      "sha256": "88203bb03ff342eb4053021946b8f7f8dadedd43d25897d7dabc7e96d0af2197"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/environment.json",
+      "bytes": 1051,
+      "sha256": "cd30361475e0fd0c0c485cd2cafd3cd5449623f760ec2f0b93eff19eec4aa496"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/reference_protocol.json",
+      "bytes": 303,
+      "sha256": "3a53ffac64ccd4ca40586bd62866578513c4cdbcfffde23dfbbd0a1d48caf629"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/replay_memory.json",
+      "bytes": 163,
+      "sha256": "31692fc3cfa0645e57c32e7b30c2ebba2fd0ad7eeae2820b501d296d9ce2746e"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/selection.json",
+      "bytes": 186,
+      "sha256": "4b25de82417af245ed6c73ee5fb5e43c36710c82581b937409455b85aa07d076"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/training_summary.json",
+      "bytes": 1386,
+      "sha256": "d60701316b9deb63a5ccc00c3809d22adb3dc8a5600829b926c231131f139c89"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/validation_ep00000.csv",
+      "bytes": 413,
+      "sha256": "33c819a514afd9b42dbccd23efc0de00460aaf1a50d2b653d1ff88e4f4d20fe2"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/validation_ep00100.csv",
+      "bytes": 413,
+      "sha256": "2c12f552a43547f9f5cfc12e98878c31e771808d045d5e2978e057e2bd62f881"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/epsilon_slow_seed41/metrics/validation_ep00197.csv",
+      "bytes": 413,
+      "sha256": "5586d86e89ad55e7fc5178215392b4bc3de18ecb56ec672dd3c863d0a36034af"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/paired_comparisons.csv",
+      "bytes": 298,
+      "sha256": "92674a5b05473e6cd3c4bee55b84c8271424c730687caa2688fed9ac0d9d7eb4"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/logs/episodes.csv",
+      "bytes": 45223,
+      "sha256": "307907cd2ed954a4133d66618daa7a04878daf0d8ec70abd8056c6a8c0207b8a"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/logs/validation.csv",
+      "bytes": 355,
+      "sha256": "14d11144679ec6e117ab25355a37b1cfc5046f0276178f7c953c25ff4c376df6"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/config.json",
+      "bytes": 501,
+      "sha256": "e5bab877d13291b75630147e20ebaf5c7f98b29d62be751b0b8a8a077ba99778"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/diagnostic_evaluation30.csv",
+      "bytes": 1115,
+      "sha256": "cad5ef0359e2ee1c120e3099206f50db98709bd6a2aa3662cf34ea57819c7918"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/diagnostic_evaluation30.json",
+      "bytes": 289,
+      "sha256": "3b65242c2b33def4ce40c1d537487eaf9128790e6a83ea01080bc7cb8d801a86"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/effective_config_session00.json",
+      "bytes": 581,
+      "sha256": "2a2770419dd860cc1e545f51022ede84f63d0dc937024bdfb09ddd180d1185db"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/environment.json",
+      "bytes": 1051,
+      "sha256": "cd30361475e0fd0c0c485cd2cafd3cd5449623f760ec2f0b93eff19eec4aa496"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/reference_protocol.json",
+      "bytes": 303,
+      "sha256": "3a53ffac64ccd4ca40586bd62866578513c4cdbcfffde23dfbbd0a1d48caf629"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/replay_memory.json",
+      "bytes": 163,
+      "sha256": "c790e4ce664eea9bc94d392e3a0ce9a9422b3dad1e6af8544a8f1fb4f8e1c633"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/selection.json",
+      "bytes": 188,
+      "sha256": "244c60f0cbbf5a5dd20f0fa89d7728da681ae7c1f577055052dfe735dfa9d047"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/training_summary.json",
+      "bytes": 1391,
+      "sha256": "822830f79960467e0cb06ea5f17768ed2a7c08ce3923170dca2a3b75d23cb6a6"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/validation_ep00000.csv",
+      "bytes": 413,
+      "sha256": "33c819a514afd9b42dbccd23efc0de00460aaf1a50d2b653d1ff88e4f4d20fe2"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/validation_ep00100.csv",
+      "bytes": 413,
+      "sha256": "c744f93db6443f26b7ea35ba3ad046f00e28b3ddf368aa761b913bc9633ddc8e"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/recent_replay_seed41/metrics/validation_ep00197.csv",
+      "bytes": 413,
+      "sha256": "1122e0e8d4ec6585955743bec4df725dee322ac3759629942d4a885af23f3bd6"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/replication_summary.json",
+      "bytes": 182,
+      "sha256": "15c87e612d0f02f87fec09295b72b5af7a4258301b7fe64054ce8c6c3053bd73"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/logs/episodes.csv",
+      "bytes": 46312,
+      "sha256": "17a63c70add9da003a1ce762a2a1cb4bb62fe065d6978b255e56b949844748a7"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/logs/validation.csv",
+      "bytes": 446,
+      "sha256": "7d16e237d94d91da4bd373c5f8d86a5db7e47b891bb4e4c5435a70a92ae9c10c"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/config.json",
+      "bytes": 501,
+      "sha256": "0f7b8e8c2cfe8161eb6866401971c7541a52457cd87100145bb80064a0808fda"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/diagnostic_evaluation30.csv",
+      "bytes": 1115,
+      "sha256": "6e705e61fa4183d5d12253520f9370250be841425fd0e5dbb0bbfa05facbcc6c"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/diagnostic_evaluation30.json",
+      "bytes": 279,
+      "sha256": "7af97defd721f4417c251bc09cb429e1802cf2bf0bc7406ed80db38f062a6179"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/effective_config_session00.json",
+      "bytes": 581,
+      "sha256": "c8091cb8b143a7680e271f12a706dbd9852be0a6e9d8b71686bdba67d2f96ba6"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/environment.json",
+      "bytes": 1051,
+      "sha256": "cd30361475e0fd0c0c485cd2cafd3cd5449623f760ec2f0b93eff19eec4aa496"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/reference_protocol.json",
+      "bytes": 303,
+      "sha256": "3a53ffac64ccd4ca40586bd62866578513c4cdbcfffde23dfbbd0a1d48caf629"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/replay_memory.json",
+      "bytes": 163,
+      "sha256": "7149c3ed8198b9ac5554e246a41485645949841f372a8225cad5362fe3173f5f"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/selection.json",
+      "bytes": 188,
+      "sha256": "0136f8b80c556540d34d7d50bc4229b3cf5a110931cc36496fa715ac8e7a9f2a"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/training_summary.json",
+      "bytes": 1388,
+      "sha256": "a79bc1bd131aac355b637e77801de0bf96eb60c841ec1653f661f602e880a52d"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/validation_ep00000.csv",
+      "bytes": 403,
+      "sha256": "c8fbdf8d5b269b8502609d5bb7e3ba467c097b92883f4b24e77f396187bbe10e"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/validation_ep00100.csv",
+      "bytes": 413,
+      "sha256": "b3cc8bbdcc8ed1ed753b337c3c29a3221eadde6a40070a5b34557ac2dd695c34"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/validation_ep00200.csv",
+      "bytes": 411,
+      "sha256": "8decb34462956263f24aa8a249b7cb58410f86745c69c1fd8ce616b162f6a08b"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed52/metrics/validation_ep00203.csv",
+      "bytes": 414,
+      "sha256": "0f7d61ac7f669d09fc7bfa10aa0d4ce7a5bc468c1aede9601e1c7824c2c4cae0"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/logs/episodes.csv",
+      "bytes": 44944,
+      "sha256": "ff46f379345a5e3cd34cc68c9098619c7c752dfed45408fa346099bd5217c992"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/logs/validation.csv",
+      "bytes": 351,
+      "sha256": "a7982a38512dd4b2f8797772cffc30a64f31729d3621f65edc9e8adfc2165896"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/config.json",
+      "bytes": 501,
+      "sha256": "e6ee15c7410104924a6e06014d1c67b459737430541cc02c287f6046a177913a"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/diagnostic_evaluation30.csv",
+      "bytes": 1114,
+      "sha256": "6ab2de176186c65ef5273805c2e347935b6185c8360720f73a3e6f9bf6056885"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/diagnostic_evaluation30.json",
+      "bytes": 255,
+      "sha256": "30334b468f0453eee31d9ab66c807328d308beb0e9f952d6ad86a3d62d211347"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/effective_config_session00.json",
+      "bytes": 581,
+      "sha256": "ab0167ee89ac73692adefc4c2c4caede5578afea166b41e2b046aaf665b2558b"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/environment.json",
+      "bytes": 1051,
+      "sha256": "cd30361475e0fd0c0c485cd2cafd3cd5449623f760ec2f0b93eff19eec4aa496"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/reference_protocol.json",
+      "bytes": 303,
+      "sha256": "3a53ffac64ccd4ca40586bd62866578513c4cdbcfffde23dfbbd0a1d48caf629"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/replay_memory.json",
+      "bytes": 163,
+      "sha256": "fd9eede8a940400fb2c36ce9e984aca44490f11e8269d09a6046cf39a906f611"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/selection.json",
+      "bytes": 188,
+      "sha256": "f036c665a3b2d8e6b57ec2e7cf722cd293cb3958ee1e28c55370a3a642151fbf"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/training_summary.json",
+      "bytes": 1389,
+      "sha256": "60d845313262fc13c2a34d255e7d3c3258dd8441e4b895fadb452765513a3a3c"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/validation_ep00000.csv",
+      "bytes": 403,
+      "sha256": "9d3c3c546d8f3ac8045497a17d3ab5b62e1b824cbfe67ffa55030d8653809d17"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/validation_ep00100.csv",
+      "bytes": 413,
+      "sha256": "10d28f57ea2f1a2121fbe268de365b4cead488bb67c9b2fadd600a55cfa6d29c"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/seed63/metrics/validation_ep00197.csv",
+      "bytes": 413,
+      "sha256": "8de18d3653f679bd3eda436c45d89425ae0a3baa3f09fbd19b0f2d99ffc9989c"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/short_validation_curves.png",
+      "bytes": 416849,
+      "sha256": "43b0841faf640440ca28a50338f945e34aac81d0c8d0e7d6647c7427f5ad932a"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/logs/episodes.csv",
+      "bytes": 45216,
+      "sha256": "aaaa0b766c3326923ec0c87e573ff929dda76cc7fc9484ffb68623300643a3a1"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/logs/validation.csv",
+      "bytes": 332,
+      "sha256": "5e9cb5a8e94355263b679803ebdba0006a15233556df6cc952acf3773f9cde62"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/config.json",
+      "bytes": 498,
+      "sha256": "85bca9f835c38b6cb939ce041800045809d781d8cc3305bc140d6ddc008fe1bd"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/diagnostic_evaluation30.csv",
+      "bytes": 1113,
+      "sha256": "e988abd152f7648597316a2258efcd09f59befc34ee41d2f631942af4027699c"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/diagnostic_evaluation30.json",
+      "bytes": 239,
+      "sha256": "ae55d2d1ac87d39b07a202df5a769badf46041c5a3eda0d25d117838a53995c2"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/effective_config_session00.json",
+      "bytes": 578,
+      "sha256": "14418e7203a5dab30e6ad455ccce62c323d3a94328e1334ecbe427cf1817e9df"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/environment.json",
+      "bytes": 1051,
+      "sha256": "cd30361475e0fd0c0c485cd2cafd3cd5449623f760ec2f0b93eff19eec4aa496"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/reference_protocol.json",
+      "bytes": 303,
+      "sha256": "3a53ffac64ccd4ca40586bd62866578513c4cdbcfffde23dfbbd0a1d48caf629"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/replay_memory.json",
+      "bytes": 163,
+      "sha256": "ee24cf14ab66a2866cda2877a7c0f77980f8f16c7b3a868d8082848933a0082a"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/selection.json",
+      "bytes": 186,
+      "sha256": "4b25de82417af245ed6c73ee5fb5e43c36710c82581b937409455b85aa07d076"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/training_summary.json",
+      "bytes": 1400,
+      "sha256": "0cda4611b0954afee856133d8917ca0423bd5bfe02963ae2e0ed9fd4abb23b37"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/validation_ep00000.csv",
+      "bytes": 413,
+      "sha256": "33c819a514afd9b42dbccd23efc0de00460aaf1a50d2b653d1ff88e4f4d20fe2"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/validation_ep00100.csv",
+      "bytes": 403,
+      "sha256": "9d3c3c546d8f3ac8045497a17d3ab5b62e1b824cbfe67ffa55030d8653809d17"
+    },
+    {
+      "path": "assignment2/results/mspacman/validation/target_every_update_seed41/metrics/validation_ep00198.csv",
+      "bytes": 403,
+      "sha256": "125d44765d588ab9a61ab6093ee0d6a7358c9a38d5606bf9d075d0ea76523a13"
+    }
+  ],
+  "source_results_preserved": true,
+  "derived_files": [
+    "assignment2/results/mspacman/recovery_validation_summary.json"
+  ]
+}
