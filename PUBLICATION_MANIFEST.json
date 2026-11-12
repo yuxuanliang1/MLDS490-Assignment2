@@ -3,16 +3,15 @@
   "purpose": "Original compact evidence selected for public review; no model weights or full training replay/logs.",
   "final_pdf": {
     "path": "MLDS_490_Assignment_2.pdf",
-    "pages": 22,
-    "sha256": "43ef5c355e210d2360c7ff0a0404a89abf161bb8914ce27ebcb2150b0958e942",
-    "modified": false,
-    "metadata_note": "Title-page URL matches repository; Section 7 retains supplied metadata placeholders."
+    "pages": 23,
+    "sha256": "cd8a1bd8fbd3903f110d58edb7c8085747d10898a465a2fcd6f4651de5ab5e0c",
+    "modified": true
   },
   "evidence_files": [
     {
       "path": "MLDS_490_Assignment_2.pdf",
-      "bytes": 1122850,
-      "sha256": "43ef5c355e210d2360c7ff0a0404a89abf161bb8914ce27ebcb2150b0958e942"
+      "bytes": 1181054,
+      "sha256": "cd8a1bd8fbd3903f110d58edb7c8085747d10898a465a2fcd6f4651de5ab5e0c"
     },
     {
       "path": "assignment2/results/cartpole/across_seeds.json",

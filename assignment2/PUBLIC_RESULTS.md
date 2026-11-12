@@ -3,8 +3,8 @@
 The committed subset preserves original measurement files. It supports review of
 both final evaluations, training curves, matched comparisons, and selected
 diagnostics without rerunning training. `PUBLICATION_MANIFEST.json` at the root
-lists every selected evidence file's original SHA256 and size, including the
-unchanged final PDF. New runs are ignored until explicitly selected for publication.
+lists SHA256 hashes and sizes for the current final PDF and selected original
+measurement files. New runs are ignored until explicitly selected for publication.
 
 ## Included experiments
 
