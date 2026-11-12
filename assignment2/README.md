@@ -86,7 +86,7 @@ python -m assignment2.cartpole.validate robustness --run "$CP/seed33"
 ```
 
 Do not execute `finalize` and individual evaluation into the same output.
-The actual selected model was `best_ep0942.pt` (not published); reruns can select
+The included selected model is `best_ep0942.pt`; reruns can select
 a different episode. Training limits are explicit because the current generic
 Config step default is larger. Q statistics evaluate each episode's initial
 observation using that episode's final online weights. A strict trailing mean
@@ -235,13 +235,14 @@ subset, use `verify_public_results` instead of a full-artifact audit.
 ## Data availability and model limitations
 
 See [PUBLIC_RESULTS.md](PUBLIC_RESULTS.md). Selected CSV/JSON evidence and PNG
-figures are committed; full per-step logs, raw optimizer logs, all checkpoints,
+figures and the two selected inference checkpoints are committed; full per-step logs, raw optimizer logs, other checkpoints,
 replay recovery archives, job metadata, course PDFs and editable LaTeX remain
 local. Fixed Atari reference arrays are included because they are a small,
 non-training diagnostic panel. They are not a substitute for model weights.
 
-Inference with the exact selected policies requires obtaining their unpublished
-checkpoints. Training anew can give a different policy. Seed-33 selection used
+Inference uses the included selected CartPole and MsPacman checkpoints linked in
+the root README. They are not full optimizer/replay/RNG recovery snapshots.
+Training anew can give a different policy. Seed-33 selection used
 validation, but per-run CartPole tests had been inspected before final across-seed
 primary designation; the report discloses this limitation. There is no universal
 convergence, robustness, or cross-device determinism claim.

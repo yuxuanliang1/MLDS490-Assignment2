@@ -50,7 +50,7 @@ the omitted recovery artifacts.
 
 ## Deliberately omitted
 
-All model weights, replay recovery snapshots, full decision-level transition logs,
+All model weights except the two selected inference checkpoints, replay recovery snapshots, full decision-level transition logs,
 full optimizer-update logs, transient launch/test logs, PID/status files, driver
 commands containing machine paths, raw GPU inventory dumps, transfer archives,
 local development manifests/notes, course handouts, and editable report sources
@@ -58,13 +58,14 @@ remain local. Only the supplied final root report is distributed as PDF; redunda
 figure PDFs are omitted in favor of PNGs. No credentials, ROM binaries, or virtual
 environments are included. Excluded artifacts were not deleted.
 
-**Exact selected-policy inference is not available from this checkout alone.**
-Obtain the original checkpoints separately, or retrain using the recorded
-configuration; retraining may produce different policies. The historical filenames
-are `seed33/checkpoints/best_ep0942.pt` for CartPole and
-`main_seed41/checkpoints/best_ep03114.pt` for MsPacman. Full Atari resume additionally
+**The selected inference checkpoints are included:**
+[CartPole](results/cartpole/seed33/checkpoints/best_ep0942.pt) and
+[MsPacman](results/mspacman/main_seed41/checkpoints/best_ep03114.pt).
+They retain online/target weights and configuration metadata, not complete
+optimizer/replay/RNG training recovery state. Retraining may produce different
+policies. Full Atari resume additionally
 needs the full recovery checkpoint/replay pair, fixed references, metadata, retained
-best models, and matching software. No external model-download URL is asserted.
+best models, and matching software. All other checkpoint files remain excluded.
 
 ## Verification
 

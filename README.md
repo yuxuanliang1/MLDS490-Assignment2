@@ -6,7 +6,7 @@ MsPacman-v5 uses an 88 x 80 single-frame CNN with gamma 0.99. Both use experienc
 replay, a separate target network, epsilon-greedy exploration, Adam, Huber loss,
 and gradient clipping.
 
-**[Read the report](MLDS_490_Assignment_2.pdf)** for the methods, eight principal
+**[Final Report](MLDS_490_Assignment_2.pdf)** for the methods, eight principal
 figures, controlled validation experiments, negative findings, and three-month
 research plan.
 
@@ -20,8 +20,9 @@ Standard deviations below are population SD (`ddof=0`) across individual returns
 | Training seed | 33 | 41 |
 | Completed training episodes / games | 942 | 3,114 |
 | Agent decisions | 80,014 | 2,000,528 |
+| Held-out evaluation episodes | 500 | 500 |
 | Mean evaluation return / raw score | 499.266 | 1,501.06 |
-| Population SD | 11.731634 | 493.720849 |
+| Population SD | 11.73 | 493.72 |
 | Median; range | 500; 287-500 | 1,430; 590-4,800 |
 | Perfect 500-step episodes | 498/500 (99.6%) | Not applicable |
 | First / last 100 exploratory training mean | 22.83 / 177.32 | 272.1 / 994.2 |
@@ -52,14 +53,18 @@ MLDS490-Assignment2/
 The public repository contains implementation/tests, selected metrics and figures,
 and small Atari reference/diagnostic image arrays. These reproduce score summaries,
 training curves, and comparison tables from saved measurements. Editable LaTeX,
-course handouts, full step/update logs, replay archives, and model weights remain
+course handouts, full step/update logs, replay archives, and other model weights remain
 local. See [data availability](assignment2/PUBLIC_RESULTS.md).
 
-**Selected checkpoints are not publicly distributed.** Exact selected-policy
-inference requires obtaining `seed33/checkpoints/best_ep0942.pt` and
-`main_seed41/checkpoints/best_ep03114.pt` separately; no download endpoint is
-provided. Retraining can select different weights. Full Atari resume also requires
-replay/RNG/optimizer recovery state and companion files.
+**The two selected inference checkpoints are included:**
+
+- [CartPole seed 33, episode 942](assignment2/results/cartpole/seed33/checkpoints/best_ep0942.pt) (144,455 bytes).
+- [MsPacman seed 41, episode 3,114](assignment2/results/mspacman/main_seed41/checkpoints/best_ep03114.pt) (11,633,449 bytes).
+
+They contain online/target networks and configuration metadata, not complete
+resumable training state. Optimizer/replay/RNG recovery archives remain local.
+Retraining can select different weights, and bitwise repetition across hardware
+or software versions is not guaranteed.
 
 ## Installation and environment checks
 
@@ -155,6 +160,28 @@ python -m assignment2.mspacman.plotting --run "$MS" --device cuda:0
 Do not execute both routes into the same evaluation directory. Full plotting
 reloads checkpoints; `--preferences-only` for Atari uses saved images and Q-values
 without network inference. Use a copy of the evidence directory for that rendering.
+
+## Evaluate the published checkpoints
+
+Install the dependencies and use the single-GPU exports above on **deepdish5**.
+These existing evaluation CLIs enforce that hostname and CUDA; they have no
+`--device` option. Each command evaluates exactly 500 greedy episodes and requires
+a fresh output directory. MsPacman also requires the ROM described above.
+
+```bash
+python -m assignment2.cartpole.evaluate \
+  --checkpoint assignment2/results/cartpole/seed33/checkpoints/best_ep0942.pt \
+  --output assignment2/results/published_cartpole_evaluation500
+python -m assignment2.mspacman.evaluate \
+  --checkpoint assignment2/results/mspacman/main_seed41/checkpoints/best_ep03114.pt \
+  --output assignment2/results/published_mspacman_evaluation500
+```
+
+The Python loaders support CPU inference via `load_agent(path, "cpu")` in
+`assignment2.cartpole.evaluate` and `assignment2.mspacman.agent`; this does not
+change the evaluation CLI restrictions. Published-checkpoint evaluation measures
+the selected policies, saved-evidence verification below checks recorded statistics,
+and the training commands above reproduce the full learning procedure.
 
 ## Validation
 
